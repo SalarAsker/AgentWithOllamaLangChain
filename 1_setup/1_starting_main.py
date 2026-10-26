@@ -4,8 +4,10 @@ from langchain_core.prompts import ChatPromptTemplate
 
 # Create llm
 llm = ChatOllama(
-        base_url="http://172.29.190.0:11434",
-        model= "phi4:14b-q4_K_M",
+        # base_url="http://172.29.190.0:11434",
+        # model= "phi4:14b-q4_K_M",
+        base_url="http://192.168.0.126:11434",
+        model="phi3:mini",  # or "llama3.2:3b"
         temperature=0.1,
         num_predict=128
         )
