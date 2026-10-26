@@ -19,10 +19,12 @@ selected_model = st.selectbox(
 # Create llm, model Phi4 is alwasy selected so can create the llm
 # without controlling the selected_model.
 llm = ChatOllama(
-    base_url="http://192.168.0.126:11434",
-    model="phi3:mini",  # or "llama3.2:3b"
-    temperature=0.1
-)
+        base_url="http://172.29.190.0:11434",
+        model= "phi4:14b-q4_K_M",
+        temperature=0.2,
+        num_predict=256
+        )
+
 
 # Create prompt
 prompt = ChatPromptTemplate.from_template(
