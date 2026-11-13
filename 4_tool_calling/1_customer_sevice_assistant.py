@@ -11,15 +11,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.messages import (SystemMessage,HumanMessage,ToolMessage)
 
 
-# Register the tools to be used by the LLM.
-tools = [
-    check_order_status, 
-    check_product_stock, 
-    check_delivery_info
-    ]
 
-# Tools dictionary
-tools_by_name = {tool.name: tool for tool in tools}
 
 # Initialize the local language model
 llm = ChatOllama(
