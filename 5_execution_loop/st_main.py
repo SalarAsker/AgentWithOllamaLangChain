@@ -45,7 +45,7 @@ if st.button("Ask Assistant", type="primary"):
             st.write(answer[0])
             
             for tool in answer[1]:
-                st.info(f"Tool called:\n\n Database table: {tool.name}")
+                st.info(f"Tool called:\n\n {tool.name}")
 
         except Exception as error:
 
