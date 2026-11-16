@@ -3,8 +3,8 @@ import json
 import re
 from careers import CAREERS, fallback_result
 
-MODEL = "llama3.2:3b"
-OLLAMA_URL = "http://192.168.0.126:11434"
+MODEL = "qwen3.5:9b"
+OLLAMA_URL = "http://172.29.190.0:11434"
 
 def generate(career_id: str, name: str, interest: str, strength: str, adventure: str, model: str = MODEL, base_url: str = OLLAMA_URL, demo: bool = False) -> tuple[dict, str]:
     backup = fallback_result(career_id, name, strength)
