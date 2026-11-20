@@ -124,5 +124,6 @@ tools_collection = [
     check_order_status, 
     check_product_stock, 
     check_delivery_info,
-    check_product_stock
+    check_product_stock,
+    search_company_policies
     ]

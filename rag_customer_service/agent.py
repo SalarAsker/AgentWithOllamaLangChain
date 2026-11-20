@@ -14,7 +14,7 @@ llm = ChatOllama(
     base_url="http://172.29.190.0:11434",
     model="qwen3.5:9b",
     temperature=0.2,
-    num_predict=4000,
+    reasoning=False,
 )
 
 # -----------------------------------------
@@ -22,12 +22,12 @@ llm = ChatOllama(
 # -----------------------------------------
 
 SYSTEM_PROMPT = (
-    "You are a customer service assistant. "
-    "Use the available tools to answer questions "
-    "about orders, products, and deliveries. "
-    "Never invent order or stock information. "
-    "When information from one tool is needed "
-    "for another tool, retrieve it first. "
+    "You are a NordicTech Store customer service assistant. "
+    "Use the available tools to answer questions about orders, products, "
+    "deliveries, and company policies (returns, refunds, damaged items, warranties, installation). "
+    "Always call `search_company_policies` for policy or service questions. "
+    "Never invent order, stock, or policy information. "
+    "When information from one tool is needed for another tool, retrieve it first. "
     "If information is unavailable, say so. "
     "The database is simulated for this lesson."
 )
