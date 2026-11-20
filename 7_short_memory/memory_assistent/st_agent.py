@@ -2,13 +2,23 @@
 # Streamlit Customer Service with different thread_ids
 
 import streamlit as st
-from agent import agent
+from agent_for_st import create_customer_service_agent
+
+
+# create and cache the agent
+if "agent" not in st.session_state:
+    st.session_state.agent = create_customer_service_agent()
+
+agent = st.session_state.agent
+
 
 st.set_page_config(
     page_title="Customer Service Assistant",
     page_icon="🤖",
     layout="centered"
 )
+
+
 
 st.title("Customer Service Assistant")
 st.info( "Enter your order number to check its status.")
