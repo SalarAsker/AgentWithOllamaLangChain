@@ -1,0 +1,20 @@
+NORDIC BAY UNIVERSITY — MAIN LIBRARY SERVICES AND BORROWING POLICY
+
+1. Library Opening Hours
+The Nordic Bay University Main Library (Building C) operates on the following schedule during active academic semesters:
+- Monday to Friday: 07:30 – 22:00 (Staffed service desk: 08:30 – 18:00)
+- Saturday and Sunday: 10:00 – 18:00 (Self-service access with student keycard)
+- During Exam Weeks: Extended 24-hour quiet study access for registered students with an active university keycard.
+
+2. Borrowing Limits and Loan Periods
+Students and faculty may borrow physical books using their university ID card:
+- Undergraduate Students: Up to 10 books for a standard loan period of 28 days.
+- Master's and PhD Students: Up to 20 books for a loan period of 42 days.
+- Course Reserve Textbooks: Short-term loan of 48 hours only (cannot be renewed).
+Standard loans may be renewed online up to 3 times unless another user has placed a hold request on the item.
+
+3. Overdue Fines and Lost Items
+Overdue standard books incur a late fee of 1.00 EUR per item per day, up to a maximum cap of 25.00 EUR per book. Overdue 48-hour Course Reserve textbooks incur a fine of 5.00 EUR per day. Borrowing privileges are automatically suspended if total unpaid fines exceed 15.00 EUR. Lost or damaged books require payment of the replacement cost plus a 15.00 EUR administrative processing fee.
+
+4. Group Study Rooms and Digital Databases
+The library provides 18 soundproof group study rooms (capacity 4 to 8 students) that can be booked online up to 7 days in advance for a maximum of 3 hours per day per student. Off-campus access to IEEE Xplore, ACM Digital Library, JSTOR, and ScienceDirect is available 24/7 by logging in with university SSO credentials.
