@@ -1,0 +1,2 @@
+Account policy (fictional classroom shop)
+Customers can register with an email address. To reset a password, use the Forgot password link and follow the email instructions. Support will never ask for passwords or one-time login codes. For account deletion, contact support for identity verification and further instructions.

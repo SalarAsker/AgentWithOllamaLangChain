@@ -1,0 +1,2 @@
+Payment policy (fictional classroom shop)
+The shop accepts card and Swish payments. If a payment fails, customers should check the payment status before retrying to avoid duplicate charges. Approved refunds normally appear through the original payment method within 5–10 business days, depending on the provider. Never share full card numbers or security codes in chat.
